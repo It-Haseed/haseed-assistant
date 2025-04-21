@@ -30,3 +30,4 @@ def connect_salla():
 if __name__ == "__main__":
     print("✅ Flask app is starting...")
     app.run(port=5000, debug=True)
+# تعديل جديد لاختبار رفع الملف إلى GitHub
