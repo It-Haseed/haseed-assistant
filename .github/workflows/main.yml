@@ -25,7 +25,8 @@ jobs:
 
       - name: Deploy to Heroku
         env:
-          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+          HEROKU_API_KEY:       HEROKU_APP_NAME: haseed-assistant
+
         run: |
           git remote add heroku https://git.heroku.com/haseed-assistant.git
           git push heroku master --force
